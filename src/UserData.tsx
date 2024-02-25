@@ -1,6 +1,5 @@
 import React from "react";
 
-// Define the structure of the individual athlete stat totals
 interface AthleteStatTotals {
   count: number;
   distance: number;
@@ -9,7 +8,7 @@ interface AthleteStatTotals {
   elevation_gain: number;
 }
 
-// Define the structure for all athlete stats categories
+
 interface AthleteStats {
   all_ride_totals: AthleteStatTotals;
   all_run_totals: AthleteStatTotals;
@@ -17,10 +16,10 @@ interface AthleteStats {
   recent_ride_totals: AthleteStatTotals;
   recent_run_totals: AthleteStatTotals;
   recent_swim_totals: AthleteStatTotals;
-  // Additional stat categories can be defined here
+
 }
 
-// Define the props for the UserData component, including user data and athlete stats
+
 interface UserDataProps {
   userData: {
     firstname: string;

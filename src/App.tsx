@@ -89,7 +89,7 @@ const App: React.FC = () => {
     } else {
       handleAuthenticationCallback();
     }
-  }, [authHandled]); // Dependency on authHandled to re-evaluate after handling auth
+  }, [authHandled]); 
 
   const handleConnect = () => {
     const authorizationUrl = `https://www.strava.com/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=${scope}`;
