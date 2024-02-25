@@ -2,16 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html,
+
 body {
   width: 100%;
   height: 100%;
-  background-color: #2e3a44;
+  /* background-color: #2e3a44; */
 }
 
 /* App.jsx */
